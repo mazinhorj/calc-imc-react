@@ -1,0 +1,40 @@
+#calc-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-control {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+    color: #e8e7e7;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.316);
+}
+
+.form-control input {
+    padding: 1rem 0.5rem;
+    border-radius: 4px;
+    border: none;
+}
+
+.action-control {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+
+
